@@ -46,6 +46,7 @@ function doGetInfo(resId) {
             $("#cuisine").text(cuisine);
             $("#rating").text(rating);
             $("#businessName").text(name);
+            $("#address").text(address);
             $("#menu").attr("href", menu);
             $("#photo").attr("src", image).text(image);
             //...
