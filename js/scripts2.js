@@ -42,7 +42,7 @@ function doGetInfo(resId) {
             var rating = restaurant.user_rating.rating_text;
             var phone = restaurant.phone_numbers;
             var cuisine = restaurant.cuisines;
-            $("#phone").text(phone);
+
             $("#cuisine").text(cuisine);
             $("#rating").text(rating);
             $("#businessName").text(name);
